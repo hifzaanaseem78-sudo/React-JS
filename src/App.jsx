@@ -37,6 +37,10 @@ const [color, setColor] = useState("black")
           <button 
           onClick={() => setColor("purple")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor: "purple"}}>Purple</button>
+
+          <button 
+          onClick={() => setColor("blue")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "blue"}}>Blue</button>
         </div>
         
       </div>
